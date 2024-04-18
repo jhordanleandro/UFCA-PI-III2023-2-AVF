@@ -1,0 +1,95 @@
+.home{
+    background-color:  #a7e3e38a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+}
+.title-home-page{
+    margin-bottom: 0.8em;
+    font-size: 26px;
+}
+.subtitle-home-page{
+    font-size: 14px;
+    width: 635px;
+}
+.container-title-subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.cadastroPage{
+    background-color: #040404;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 0.4em 0.6em;
+}
+.btn-book-appointment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 2.5em;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.btn-text{
+    background-color: #040404;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 0.6em 1.0em;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.btn-arrow {
+    align-self: center;
+    background-color: #040404;
+    padding: 0.6em 1.2em;
+    border-radius: 16px;
+    font-size: 20px;
+  }
+.container-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1em;
+  }
+.box-find-doctor{
+    border-radius: 20px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(252, 213, 6, 0.2);
+    width: 49.4%;
+    height: 28vh;
+}
+.box-book-appointment{
+    border-radius: 20px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(170, 219, 254, 0.5);
+    width: 49.4%;
+    height: 28vh;
+}
+.title-box-find-doctor-or-book-appointment{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+.subtitle-box-find-doctor-or-book-appointment{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: -1.5em;
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": "93d800c0-4718-437d-8e37-279cd4ffe948",
+    "name": "Davi dos Lírios",
+    "medical_specialty": "Psiquiatra",
+    "address": "Rua dos Ipês, 741, Manaus",
+    "deleted": false,
+    "appointment": {
+      "data": "25 de Março\n de 2024",
+      "time": "10:00, Segunda-feira"
+    }
+  },
+  {
+    "id": "7ff9f7e5-bf93-49bb-b5a2-1546ffd13fec",
+    "name": "João das Flores",
+    "medical_specialty": "Psiquiatra",
+    "address": "Rua das Flores, 123, São Paulo",
+    "deleted": false,
+    "appointment": {
+      "data": "27 de Março\n de 2024",
+      "time": "10:00, Quarta-feira"
+    }
+  }
+]

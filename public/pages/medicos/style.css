@@ -1,0 +1,279 @@
+.main{
+    background-color:  #a7e3e38a;
+    border-radius: 20px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    scrollbar-color: #FFFFFF transparent; 
+}
+.box-doctor{
+    border-radius: 8px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.container-my-doctors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+}
+.container-detail-doctors{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.title-doctor-page{
+    margin-bottom: 35px;
+    margin-top: 8px;
+    font-size: 26px;
+}
+.title-doctor{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+.subtitle-doctor-specialty{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+.subtitle-doctor-adress{
+    font-size: 13px;
+    font-weight: 300;
+}
+.subtitle-doctor-full-adress{
+    font-size: 11px;
+    font-weight: 300;
+}
+.title-detail-doctor{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    margin-top: -10px;
+}
+.subtitle-detail-doctor{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+.divider {
+    border: none;
+    border-top: 1px solid #D9D9D9;
+    margin: 5px 0;
+}
+.divider-horizontal{
+    border: 1px solid #D9D9D9;
+    width: 100%;
+}
+.divider-between-containers {
+    border: 1px solid #D9D9D9;
+    height: 100%;
+    margin-right: 30px;
+}
+.datas{
+    display: flex;
+    gap: 1.5em;
+    overflow-x: hidden;
+    white-space: nowrap;
+    align-items: center;
+    width: 100%;
+}
+span{
+    font-size: 12px;
+}
+.fusoBSB{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+}
+/* Para navegadores baseados no Chromium (Chrome, Edge) */
+.datas p:hover{
+    border-radius: 10px;
+    background-color: rgba(167, 227, 227, 0.5);
+    padding: 0.5em 0.5em;
+}
+.date-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}	
+.agendar{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+.seta {
+    width: 20px;
+    height: 20px; 
+    cursor: pointer; 
+    margin-left: 10px;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.button button{
+    background-color: #FF725E;
+    color: #FFFFFF;
+    border: 1px solid #FF725E;
+    border-radius: 10px;
+    padding: 0.2em 1.5em;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.modalAgendar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0000005d;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titleAppointmentModal{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+}
+.off{
+    display: none;
+}
+.modal{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 60%;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.perfilModal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 2em;
+    margin-left: 7em;
+    align-self: center;
+}
+.calendario{
+    width: 130px;
+    height: 130px;
+    margin-top: -10px;
+}
+.titlemodal{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.titlemodal p{
+    font-size: 14px;
+}
+
+.dataAgendamento{
+    display: flex;
+    flex-direction: column;
+}
+
+.dataAgendamento p{
+   font-size: 14px;
+}
+
+.containerInfosAgendamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+}
+
+.containerInfosAgendamento p{
+    font-size: 14px;
+}
+
+.dataEnderecamento{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    width: 400px;
+}
+
+.dataEnderecamento p{
+    font-size: 13px;
+ }
+
+ .doutoraModal{
+    margin-bottom: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .buttonsModal{
+    display: flex;
+    width: 43%;
+    justify-content: space-around;
+ }
+
+ .buttonConfirmar{
+    background: #FF725E;
+    border: none;
+    padding: .3em 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+ }
+ .buttonCancelar{
+    border: 1px solid #040404;
+    cursor: pointer;
+    background: #fff;
+    padding: 0.3em 1.5em;
+    border-radius: 10px;
+    color: #040404;
+    font-size: 20px;
+ }
+ .buttonConfirmar a{
+    color: #fff;
+ }
+.iconClose{
+    align-self: flex-end;
+    cursor: pointer;
+}
+.appointmentDayText{
+    font-size: 11px;
+    font-weight: 400;
+}
+.appointmentDay{
+    font-size: 13px;
+    font-weight: 600;
+}
+.appointmentTime{
+    font-size: 12px;
+    font-weight: 400;
+}
+.marginTime{
+    margin-top: 5px;
+}

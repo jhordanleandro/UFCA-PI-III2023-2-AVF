@@ -1,0 +1,307 @@
+.appointment{
+    background-color:  #a7e3e38a;
+    border-radius: 20px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    scrollbar-color: #FFFFFF transparent; 
+}
+.title-appointment-page{
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+#appointments-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.box-appointment{
+    border-radius: 8px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 55px;
+}
+.container-my-appointments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+}
+.container-detail-appointments{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding-top: 1em;
+}
+.title-appointment{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+.subtitle-appointment-specialty{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+.subtitle-appointment-adress{
+    font-size: 13px;
+    font-weight: 300;
+}
+.subtitle-appointment-full-adress{
+    font-size: 11px;
+    font-weight: 300;
+}
+.title-detail-appointment{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+    margin-top: -10px;
+}
+.subtitle-detail-appointment{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+.divider {
+    border: none;
+    border-top: 1px solid #D9D9D9;
+    margin: 5px 0;
+}
+.divider-between-containers {
+    border: 1px solid #D9D9D9;
+    height: 100%;
+    margin-right: 50px;
+}
+.btn-container{
+    margin-top: 10px;
+}
+.btn-cancel{
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 0.2em 1em;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.btn-reschedule{
+    background-color: #FF725E;
+    color: #FFFFFF;
+    border: 1px solid #FF725E;
+    border-radius: 10px;
+    padding: 0.2em 1em;
+    font-size: 15px;
+    cursor: pointer;
+}
+.ModalCancelar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0000005d;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ModalReagendar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0000005d;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.off{
+    display: none;
+}
+
+.ModalReagendamento{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 70%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 70%;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Modal h3{
+    margin-bottom: 1em;
+}
+.Modal p{
+    width: 550px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.titleAppointmentModal{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 4em;
+}
+.titleAppointmentModalReagendar{
+    font-size: 25px;
+    font-weight: 500;
+}
+.subtitleAppointmentModal{
+    font-size: 15px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+}
+
+.buttonsModal{
+    display: flex;
+    width: 42%;
+    justify-content: space-around;
+    margin-bottom: 4em;
+    margin-top: 1em;
+ }
+
+.buttonCancelar{
+    background: #FF725E;
+    border: none;
+    padding: 0.4em 3.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+ 
+ .buttonCancelarAgenda{
+    border: 1px solid #040404;
+    cursor: pointer;
+    background: #fff;
+    padding: 0.4em 3.5em;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+
+.buttonSair{
+    background: #FF725E;
+    border: none;
+    padding: 0.4em 3em;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+ .buttonConfirmar{
+    border: 1px solid #040404;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    padding: 0.4em 3em;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(190, 231, 249, 0.3);
+    border-radius: 20px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    width: 70%;
+ }
+
+.agendar{
+    width: 87%;
+    padding: 2em 2em 1em 1em;
+}
+
+ .datasReagendamento{
+    display: flex;
+    gap: 2em;
+    overflow-x: hidden;
+    white-space: nowrap;
+    padding: 0 1em;
+    width: 100%;
+}
+.datasReagendamento div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.datasReagendamento h5{
+    text-align: center;
+}
+.datasReagendamento p{
+    width: 100%;
+    
+}
+.datasReagendamento p:hover{
+    border-radius: 5px;
+    background-color: #FF725E;
+    padding: 0.2em 0.3em;
+}
+.appointmentDayText{
+    font-size: 11px;
+    font-weight: 400;
+}
+.appointmentDay{
+    font-size: 13px;
+    font-weight: 600;
+}
+.appointmentTime{
+    font-size: 12px;
+    font-weight: 400;
+}
+.marginTime{
+    margin-top: 10px;
+}
+.removido{
+    display: none;
+}
+.iconClose{
+    align-self: flex-end;
+    cursor: pointer;
+}
+.iconCloseReagendar{
+    align-self: flex-end;
+    cursor: pointer;
+}
+.date-item-reschedule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
