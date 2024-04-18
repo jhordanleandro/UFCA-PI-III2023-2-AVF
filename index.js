@@ -1,9 +1,5 @@
-const express = require('express');
-const cors = require('cors');
-const bodyParser = require('body-parser');
-const routes = require('./routes');
-
-const app = express();
+const express = require('express'), cors = require('cors'), bodyParser = require('body-parser'),
+    routes = require('./routes'), app = express();
 
 app.use(cors({origin: 'http://localhost:5500'}));
 app.use(express.static('public'));
